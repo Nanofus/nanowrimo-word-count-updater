@@ -1,0 +1,3 @@
+[
+    {"keys": ["alt+shift+w"], "command": "post_word_count"}
+]
