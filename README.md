@@ -1,5 +1,5 @@
 # NaNoWriMo Word Count Updater
-A Sublime Text 3 plugin for updating your National Novel Writing Month word count.
+A Sublime Text 3 package for updating your National Novel Writing Month word count.
 
 ## Installation
 1. Download the repository as a zip and unzip it into your `C:\Users\{USERNAME}\AppData\Roaming\Sublime Text 3\Packages` folder
