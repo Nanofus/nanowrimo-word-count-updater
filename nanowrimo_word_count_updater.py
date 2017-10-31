@@ -10,7 +10,7 @@ class PostWordCountCommand(sublime_plugin.TextCommand):
         sublime.status_message("Starting to update NaNoWriMo word count...")
 
         # Load settings
-        global_settings = sublime.load_settings("nanowrimo-word-count-updater.sublime-settings")
+        global_settings = sublime.load_settings("nanowrimo_word_count_updater.sublime-settings")
         secret_key = global_settings.get('nanowrimo_secret_key', "")
         name = global_settings.get('nanowrimo_name', "")
 
@@ -18,9 +18,9 @@ class PostWordCountCommand(sublime_plugin.TextCommand):
         if (secret_key == ""):
             sublime.message_dialog("No NaNoWriMo secret key set. Please define it in the package settings.")
             return
-            if (name == ""):
-                sublime.message_dialog("No NaNoWriMo name set. Please define it in the package settings.")
-                return
+        if (name == ""):
+            sublime.message_dialog("No NaNoWriMo name set. Please define it in the package settings.")
+            return
 
         # Count words
         text = self.view.substr(sublime.Region(0, self.view.size()));
