@@ -9,5 +9,5 @@ A Sublime Text 3 package for updating your [National Novel Writing Month](https:
 5. You're ready to go!
 
 ## Usage
-Press `Alt + Shift + W` to update your NaNoWriMo word count based on the currently open document.
+Press `Alt + Shift + N` to update your NaNoWriMo word count based on the currently open document.
 The shortcut can be changed in the OS-specific `sublime-keymap` files.
