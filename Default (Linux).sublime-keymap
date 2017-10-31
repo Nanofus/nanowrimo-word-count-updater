@@ -1,3 +1,3 @@
 [
-    {"keys": ["alt+shift+w"], "command": "post_word_count"}
+    {"keys": ["alt+shift+n"], "command": "post_word_count"}
 ]
