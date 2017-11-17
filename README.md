@@ -2,7 +2,7 @@
 A Sublime Text 3 package for updating your [National Novel Writing Month](https://nanowrimo.org/) word count.
 
 ## Installation
-1. Download the [latest release](https://github.com/Nanofus/nanowrimo_word_count_updater/releases) and unzip it into your `C:\Users\{USERNAME}\AppData\Roaming\Sublime Text 3\Packages` folder
+1. Install the package via [Package Control](https://packagecontrol.io/packages/NaNoWriMo%20Word%20Count%20Updater)
 2. Open the `sublime-settings` file
 3. Fill in your username into `nanowrimo_name`
 4. Get your [WordCount API](https://nanowrimo.org/api/wordcount) secret key and fill it into `nanowrimo_secret_key`
